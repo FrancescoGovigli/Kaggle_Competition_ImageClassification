@@ -4,6 +4,8 @@ First Competition – Image Classification
 
 Team Members: Leonardo Giusti, Francesco Govigli, Lorenzo Mainetti
 
+Dataset available here : https://www.kaggle.com/c/artificial-neural-networks-and-deep-learning-2020/data?select=MaskDataset
+
 **SCOPE**
 
 Given an image dataset, implement a performant algorithm using CNN (Convolutional Neural Networks) to classify the samples depicting groups of people based on the number of masked people. In particular, the classifier must discriminate between the following images:
