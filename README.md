@@ -2,7 +2,7 @@
 
 First Competition – Image Classification
 
-Team Members: Leonardo Giusti, Francesco Govigli, Lorenzo Mainetti
+Team Members: [__Leonardo Giusti__](https://github.com/giusti-leo), [__Francesco Govigli__](https://github.com/FrancescoGovigli), [__Lorenzo Mainetti__](https://github.com/LorenzoMainetti)
 
 Dataset available here : https://www.kaggle.com/c/artificial-neural-networks-and-deep-learning-2020/data?select=MaskDataset
 
