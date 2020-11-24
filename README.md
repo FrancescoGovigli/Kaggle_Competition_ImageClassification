@@ -16,22 +16,6 @@ Given an image dataset, implement a performant algorithm using CNN (Convolutiona
 
 Since we have 3 types of images to distinguish, we need a 3-class classifier.
 
-![](RackMultipart20201124-4-x5cn4u_html_6cc2ba8a910f8cbb.jpg) ![](RackMultipart20201124-4-x5cn4u_html_2d8340819a802514.jpg)
-
-![](RackMultipart20201124-4-x5cn4u_html_310ab497bdeb6f4a.gif)
-
-Figure 1. All people are with a mask
-
-![](RackMultipart20201124-4-x5cn4u_html_b2bcd98a13ff6476.gif)
-
-Figure 2. All people are without a mask
-
-![](RackMultipart20201124-4-x5cn4u_html_40508d3d53ea1d88.jpg)
-
-![](RackMultipart20201124-4-x5cn4u_html_af2f6e9a214439c3.gif)
-
-Figure 3. Someone has no mask
-
 # MORE DETAILS (Dataset Structure)
 
 The dataset is split in two folders:
