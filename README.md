@@ -10,6 +10,8 @@ Given an image dataset, implement a performant algorithm using CNN (Convolutiona
 
 1) No person in the image is wearing a mask (class label 0)
 
+![alt text](https://github.com/[FrancescoGovigli]/[Kaggle_Competition_ImageClassification]/blob/[branch]/image.jpg?raw=true)
+
 2) All the people in the image are wearing a mask (class label 1)
 
 3) Someone in the image is not wearing a mask (class label 2)
