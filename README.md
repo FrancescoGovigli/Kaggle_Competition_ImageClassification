@@ -10,15 +10,15 @@ Given an image dataset, implement a performant algorithm using CNN (Convolutiona
 
 1) No person in the image is wearing a mask (class label 0)
 
-<img src ="MdImages/NoMask.jpg" width = 300 height=400 >
+  <img src ="MdImages/NoMask.jpg" width = 300 height=200  >
 
 2) All the people in the image are wearing a mask (class label 1)
 
-<img src ="MdImages/AllWithMask.jpg" width = 300 height=400 >
+  <img src ="MdImages/AllWithMask.jpg" width = 200 height=300 >
 
 3) Someone in the image is not wearing a mask (class label 2)
 
-<img src ="MdImages/SomeoneWithout.jpg" width = 400 height=300 >
+  <img src ="MdImages/SomeoneWithout.jpg" width = 300 height=200 >
 
 Since we have 3 types of images to distinguish, we need a 3-class classifier.
 
