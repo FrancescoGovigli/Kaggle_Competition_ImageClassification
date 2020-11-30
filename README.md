@@ -37,7 +37,7 @@ Labels for images are provided in the &quot;train\_gt.json&quot; file and all th
 
 Initially, to make all reproducible, we insert a random seed in our notebook.
 
-We used a dataframe to encapsule the data tuple (Image.jpg, label) given in the .json file and splitted it in a training set of 80% of the original set and in a validation set made of 20% of the samples. Moreover, we verify that the data distribution in train\_set and valid\_set is more or less the same using pandas statistics.
+We used a dataframe to encapsule the data tuple (Image.jpg, label) given in the .json file and split it in a training set of 80% of the original set and in a validation set made of 20% of the samples. Moreover, we verify that the data distribution in train\_set and valid\_set is more or less the same using pandas statistics.
 
 Looking at a first glance to the dataset we see that there are few pictures in it and in addition it looks like pictures are also of different sizes and with some kind of rotations in the features to analyze. As a result, we decided to make a slight Data Augmentation for the training set varying for instance the rotation\_range, zoom\_range and horizontal flip, but not the vertical flip as it could eventually bring us to an overtrained model.
 
@@ -49,7 +49,7 @@ We started building a model having 4 convolutional layers, composed by a Conv2d,
 
 Best Model:
 
-We modified our baseline by changing the resize of the input image to 512x512 to reduce loss of quality. Moreover, after looking deeply into the image dataset, we decided to apply more rigid Data Augmentation by increasing rotation\_range = 15, width\_shift = 20, height\_shift = 20, zoom = 0.2. We tryed also to change the batch\_size to 12 and the learning rate to 1e-5 to reach a more precise loss computation and a slowly correction of the trained weights.
+We modified our baseline by changing the resize of the input image to 512x512 to reduce loss of quality. Moreover, after looking deeply into the image dataset, we decided to apply more rigid Data Augmentation by increasing rotation\_range = 15, width\_shift = 20, height\_shift = 20, zoom = 0.2. We tried also to change the batch\_size to 12 and the learning rate to 1e-5 to reach a more precise loss computation and a slowly correction of the trained weights.
 
 The model has just one fully connected layer of 1024 units and a 3 neurons output layer with Softmax activation.
 
